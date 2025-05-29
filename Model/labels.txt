@@ -1,0 +1,4 @@
+0 NO
+1 YES
+2 OKAY
+3 THANK_YOU
