@@ -1,37 +1,44 @@
-# 👓 GestraSpeak: Real-Time Sign Language to Speech Translation
+# 👓 GestraSpeak: Real-Time Sign Language to Speech Translator
 
-GestraSpeak is a real-time computer vision application that translates sign language gestures into audible speech. Designed with future integration into wearable technology (e.g., smart glasses) in mind, the system aims to empower the hearing-impaired community by enabling more seamless communication with the world around them.
+GestraSpeak is an innovative computer vision application that translates sign language gestures into audible speech in real-time. Designed with future integration into wearable devices like smart glasses, this project aims to bridge communication gaps for the hearing-impaired community by enabling seamless interaction with the world around them.
+
+---
 
 ## 🔍 Overview
 
-The project combines advanced gesture recognition with audio synthesis to build a lightweight and responsive sign-to-speech engine. Using real-time webcam input, GestraSpeak identifies hand and body landmarks, interprets the gesture, and outputs corresponding audio.
+GestraSpeak captures hand and body gestures through a webcam, interprets them using advanced machine learning techniques, and converts the recognized signs into spoken words. This real-time translation facilitates effective communication between sign language users and those unfamiliar with sign language.
+
+---
 
 ## ⚙️ Features
 
-- 🎥 **Real-time webcam-based hand and pose detection**
-- 🧠 **Gesture interpretation using MediaPipe landmarks**
-- 🔊 **Speech generation via text-to-speech synthesis**
-- 📦 **Lightweight implementation with potential for embedded deployment (e.g., smart glasses)**
+- **Real-Time Gesture Recognition**: Utilizes webcam input to detect and interpret sign language gestures instantaneously.
+- **Speech Output**: Converts recognized gestures into audible speech using text-to-speech synthesis.
+- **Lightweight Design**: Optimized for performance, making it suitable for deployment on resource-constrained devices like smart glasses.
+- **Modular Architecture**: Structured for easy integration and scalability, allowing for future enhancements and feature additions.
+
+---
 
 ## 🛠 Technologies Used
 
-- **Python 3.8+** – Core development language  
-- **OpenCV** – Video capture and image processing  
-- **MediaPipe** – Hand and pose landmark detection  
-- **pyttsx3** – Text-to-speech conversion  
-- **NumPy** – Mathematical operations and calculations  
+- **Python 3.8+** – Core programming language for development
+- **OpenCV** – Handles image and video capture, as well as processing tasks
+- **MediaPipe** – Provides efficient and accurate hand and pose landmark detection
+- **pyttsx3** – Facilitates offline text-to-speech conversion
+- **NumPy** – Supports numerical operations and data manipulation
+
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.8 or later
-- Webcam
-- Package manager: `pip`
+- Python 3.8 or higher installed on your system
+- A functional webcam for capturing gestures
 
 ### Installation
 
-```bash
-git clone https://github.com/iHakawaTi/GestraSpeak.git
-cd GestraSpeak
-pip install -r requirements.txt
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/iHakawaTi/GestraSpeak.git
+   cd GestraSpeak
