@@ -38,7 +38,7 @@ GestraSpeak captures hand and body gestures through a webcam, interprets them us
 
 ### Installation
 
-1. **Clone the Repository**:
+**Clone the Repository**:
    ```bash
    git clone https://github.com/iHakawaTi/GestraSpeak.git
    cd GestraSpeak
